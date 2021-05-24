@@ -24,9 +24,10 @@ int main()
       if (arr[r][c] == key)
             {
             flag=true;
+            break;
             }
 
-            if (arr[r][c] > key)
+            else if (arr[r][c] > key)
             {
                 c--;
             }
@@ -40,9 +41,5 @@ int main()
         cout<<"not found";
     }
     
-            
-        
-    
-
     return 0;
 }
